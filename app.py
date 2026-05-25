@@ -98,7 +98,22 @@ INCOME_LABELS = {
 # -----------------------------
 # App UI
 # -----------------------------
-st.title("🩺 BRFSS Diabetes Prediction App")
+LINKEDIN_URL = "https://www.linkedin.com/in/yousef-ismail87/"
+
+st.markdown(
+    f"""
+    <h1 style="font-size: 38px; font-weight: 800; margin-bottom: 10px;">
+        🩺 BRFSS Diabetes Prediction App
+        <span style="font-size: 22px; font-weight: 500;">
+            By 
+            <a href="{LINKEDIN_URL}" target="_blank" style="text-decoration: none;">
+                Yousef Ismail Ahmed
+            </a>
+        </span>
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
 st.warning(
     "This app is for educational purposes only and should not be used as a medical diagnosis tool."
 )
