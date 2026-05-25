@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+env/
+venv/
+.env
+
+# Large raw data
+data/LLCP2024.XPT
+
+# OS files
+.DS_Store
+Thumbs.db
